@@ -1,7 +1,28 @@
 aid: cobalt-ai
 name: Cobalt AI
-description: Cobalt AI is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cobalt AI (formerly Cobalt Robotics) is a San Francisco based physical
+  security automation company whose Cobalt Monitoring Intelligence platform uses
+  AI handlers to investigate security events across access control systems and
+  video feeds, determine root cause, and trigger automated responses so security
+  teams focus on genuine threats instead of alarm triage. Its offerings include
+  the Cobalt Command Center remote monitoring service and an indoor autonomous
+  security robot, with integrations spanning LenelS2, Genetec, Avigilon, Brivo,
+  Eagle Eye Networks, Milestone, Okta, ServiceNow, Salesforce, and Slack. The
+  company was founded in 2016, backed early by Bloomberg Beta and Sequoia, and
+  acquired in 2024 by Dean Drako, who rebranded it to Cobalt AI.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.cobaltai.com/wp-content/uploads/2024/04/cropped-favicon-InfinityMark-blue-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/cobalt-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Physical Security
+- Security Automation
+- Artificial Intelligence
+- Video Monitoring
+- Access Control
+- Robotics
+- Remote Monitoring
+- Security Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cobalt-ai-domain-security.yml
 - type: Website
-  url: http://www.cobaltrobotics.com/
+  url: https://www.cobaltai.com/
+- type: Blog
+  url: https://www.cobaltai.com/category/news_insights/
+- type: Support
+  url: https://www.cobaltai.com/knowledge-base-redir/
+- type: HelpCenter
+  url: https://www.cobaltai.com/knowledge-base-redir/
+- type: Contact
+  url: https://www.cobaltai.com/contact/
+- type: Login
+  url: http://customer.cobaltai.com/
+- type: PrivacyPolicy
+  url: https://www.cobaltai.com/privacy-policy
+- type: Integrations
+  url: https://cobaltai.com/integrations/
+- type: Careers
+  url: https://www.cobaltai.com/careers/
+- type: VulnerabilityDisclosure
+  url: security/cobalt-ai-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.cobaltai.com/responsible_disclosure/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/just-cobalt-ai/
+- type: Twitter
+  url: https://x.com/Just_CobaltAI
+- type: YouTube
+  url: https://www.youtube.com/@Just_Cobalt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
