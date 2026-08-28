@@ -11,6 +11,17 @@ description: >-
   Eagle Eye Networks, Milestone, Okta, ServiceNow, Salesforce, and Slack. The
   company was founded in 2016, backed early by Bloomberg Beta and Sequoia, and
   acquired in 2024 by Dean Drako, who rebranded it to Cobalt AI.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
